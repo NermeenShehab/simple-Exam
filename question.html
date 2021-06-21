@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Quetion</title>
+    <script src="javascript/jquery3.6.0.js"></script>
+    <link rel="stylesheet" href="stylequiz.css">
+    <script src="question.js">
+    </script>
+</head>
+
+<body>
+
+    <!-- quiz box -->
+    <div id="container">
+        <div id="quizbox">
+            <div id="username"></div>
+            <div class="quizName">Math Exam</div>
+            <div class="timer">
+
+                <!-- <div class="quiztime">Quiz time</div> -->
+                <div class="quiztime">Quiz time:
+                    <span id="time">30:00</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="quiz"></div>
+
+        <div id="result" style="display: none;">
+            your Score is : <span id="fResult"></span> out of 100
+        </div>
+
+        <input type="button" id="next" class="button" value="Next">
+        <input type="button" id="finish" class="button" value="Finish">
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>

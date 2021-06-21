@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>register form</title>
+    <script src="javascript/jquery3.6.0.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="register.js"></script>
+</head>
+
+<body>
+
+    <form method="get" action="loginpage.html" id="register">
+        <table>
+            <caption>Registriation Page</caption>
+            <tr>
+                <td>
+                    user Name
+                </td>
+                <td colspan="4">
+                    <input type="text" id="username" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5"><span id="usernameerror">Username Must Be Letters Only between 6 and 8 </span></td>
+            </tr>
+            <tr>
+                <td>
+                    user Password
+                </td>
+                <td colspan="4">
+                    <input type="password" id="userpass" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5"><span id="userpasserror">Userpassword Must Be digits Only between 4 and 6 </span></td>
+            </tr>
+            <tr>
+                <td>
+                    Password Confirmation
+                </td>
+                <td colspan="5">
+                    <input type="password" id="confirmpass" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5"><span id="confirmpasserror">userpassword Must Be Matched </span></td>
+            </tr>
+            <tr>
+                <td>
+                    E-mail
+                </td>
+                <td colspan="4">
+                    <input type="text" id="useremail" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5"><span id="useremailerror">userEmail Must Be valid </span></td>
+            </tr>
+            <tr>
+                <td>
+                    Gender
+                </td>
+                <td colspan="4">
+                    <input type="radio" name="Genderr" value="Male" id="GenderM" /> Male
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="4 ">
+                    <input type="radio" name="Genderr" value="Female" id="GenderF" /> Female
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5"><span id="gender">plz chose gender </span></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Ok" class="btn" /></td>
+                <td><input type="reset" value="Cancel" class="btn" /></td>
+            </tr>
+
+        </table>
+    </form>
+
+
+</body>
+
+</html>

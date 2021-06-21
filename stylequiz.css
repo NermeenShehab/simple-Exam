@@ -1,0 +1,92 @@
+#container {
+    width: 850px;
+    height: 550px;
+    background-color: gainsboro;
+    border: 2px solid rgb(30, 1, 85);
+    border-radius: 3px;
+    box-shadow: 0 0 13px 2px blacks;
+    margin: auto;
+    padding: 20px;
+    font-size: xx-large;
+    border-radius: 10px 10%;
+    box-shadow: 3px 5px 25px blue;
+}
+
+.quizName,
+.timer,
+#username {
+    width: 230px;
+    height: 80px;
+    font-size: xx-large;
+    border: 2px solid black;
+    background-color: snow;
+    border-radius: 20% 20%;
+    float: left;
+    padding: 7px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #09026e;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#username {
+    width: 250px;
+}
+
+h2 {
+    color: red;
+}
+
+input[type=radio] {
+    border: 0px;
+    width: 20px;
+    height: 2em;
+}
+
+.button {
+    width: 180px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 57px;
+    float: right;
+    background-color: rgb(15, 3, 126);
+    margin: 0 2px 0 2px;
+    cursor: pointer;
+    color: white;
+}
+
+.button:hover {
+    background-color: rgb(223, 111, 20);
+    text-decoration: blink;
+    animation-name: blinker;
+    animation-duration: 0.6s;
+    transition: 0.15s linear;
+    box-shadow: 3px 5px 25px blue;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 500px;
+}
+
+ul li {
+    background: white;
+    width: 200px;
+    margin: 10px;
+    padding: 5px;
+    display: inline-block;
+}
+
+input[type="radio"] {
+    cursor: pointer;
+}
+
+#result {
+    font-family: 'Times New Roman', Times, serif;
+    color: #09026e;
+}

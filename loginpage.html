@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>login form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="login.js">
+    </script>
+</head>
+
+<body>
+    <form method="get" id="login" action="question.html">
+        <table>
+            <caption>Login Page</caption>
+            <tr>
+                <td>
+                    user Name
+                </td>
+                <td colspan="4">
+                    <input type="text" id="username" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5"><span id="usernameerror">Username Must Be Letters Only between 6 and 8 </span></td>
+            </tr>
+            <tr>
+                <td>
+                    user Password
+                </td>
+                <td colspan="4">
+                    <input type="password" id="userpass" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5"><span id="userpasserror">Userpassword Must Be digits Only between 4 and 6 </span></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Ok" class="btn" /></td>
+                <td><input type="reset" value="Cancel" class="btn" /></td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>
